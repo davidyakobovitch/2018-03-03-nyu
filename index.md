@@ -202,6 +202,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
 
+<p id="collaborative_notes">
+  We will use this <a href=" http://pad.software-carpentry.org/2018-03-03-nyu-python">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+</p>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
